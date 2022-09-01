@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //   max-width: 4508px;
+  &:last-of-type img {
+    margin-right: 0;
+  }
+}
+
+img {
+  margin-right: 30px;
+  width: 400px;
+  height: 600px;
+}
